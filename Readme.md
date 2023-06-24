@@ -1,5 +1,24 @@
 # Self Learning GoLang 101
 
+## Project Structure
+
+```
+
+├── basics
+│   ├── 1-packages-variables-functions
+│   │   ├── main.go
+│   ├── 2-flow-control-statements-for-if-else-switch-and-defer
+│   │   ├── main.go
+├── samples
+│   ├── calculator
+│   │   ├── main.go
+│   ├── todo-app
+│   │   ├── main.go
+├── go.mod
+├── .gitignore
+└── README.md
+
+```
 ## Basics
 
 ### [packages-variables-functions](basics%2Fpackages-variables-functions)
@@ -33,7 +52,7 @@ This folder contains the following programs:
 * defer
 * stacking defers
 
-## Sample Programs
+## Samples
 
 This folder contains the following programs:
 
