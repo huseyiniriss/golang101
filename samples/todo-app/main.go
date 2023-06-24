@@ -79,23 +79,16 @@ func addTodo(todo ToDo) {
 }
 
 func removeTodo(id int) {
-	if id >= len(todoList) {
-		fmt.Println("Invalid index")
-		return
-	}
 	for i, todo := range todoList {
 		if todo.Id == id {
 			todoList = append(todoList[:i], todoList[i+1:]...)
 			return
 		}
 	}
+	fmt.Println("Invalid id")
 }
 
 func updateTodo(id int, todo ToDo) {
-	if id >= len(todoList) {
-		fmt.Println("Invalid index")
-		return
-	}
 	for i, item := range todoList {
 		if item.Id == id {
 			todo.Id = id
@@ -103,6 +96,7 @@ func updateTodo(id int, todo ToDo) {
 			return
 		}
 	}
+	fmt.Println("Invalid id")
 }
 
 func viewTodo() {
