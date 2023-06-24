@@ -9,6 +9,8 @@
 │   │   ├── main.go
 │   ├── 2-flow-control-statements-for-if-else-switch-and-defer
 │   │   ├── main.go
+│   ├── 3-more-types-structs-slices-and-maps
+│   │   ├── main.go
 ├── samples
 │   ├── calculator
 │   │   ├── main.go
@@ -21,7 +23,7 @@
 ```
 ## Basics
 
-### [packages-variables-functions](basics%2Fpackages-variables-functions)
+### [1-packages-variables-functions](basics%2F1-packages-variables-functions)
 
 This folder contains the following programs:
 
@@ -38,7 +40,7 @@ This folder contains the following programs:
 * constants
 * numeric constants
 
-### [flow-control-statements-for-if-else-switch-and-defer](basics%2Fflow-control-statements-for-if-else-switch-and-defer)
+### [2-flow-control-statements-for-if-else-switch-and-defer](basics%2F2-flow-control-statements-for-if-else-switch-and-defer)
 
 This folder contains the following programs:
 
@@ -51,6 +53,33 @@ This folder contains the following programs:
 * switch with no condition
 * defer
 * stacking defers
+
+### [3-more-types-structs-slices-and-maps](basics%2F3-more-types-structs-slices-and-maps)
+
+This folder contains the following programs:
+
+* pointers
+* structs
+* structs fields
+* structs pointers to structs
+* structs struct literals
+* arrays
+* slices
+* slices are like references to arrays
+* slices literals
+* slices defaults
+* slices length and capacity
+* nil slices
+* create a slice with make
+* slices of slices
+* appending to a slice
+* range
+* maps
+* map literals
+* map literals continued
+* mutating maps
+* functions values
+* function closures
 
 ## Samples
 
