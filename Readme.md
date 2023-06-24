@@ -16,6 +16,8 @@
 │   │   ├── main.go
 │   ├── todo-app
 │   │   ├── main.go
+│   ├── tr-en-dictionary
+│   │   ├── main.go
 ├── go.mod
 ├── .gitignore
 └── README.md
@@ -87,3 +89,4 @@ This folder contains the following programs:
 
 * [todo-app](samples%2Ftodo-app)
 * [calculator](samples%2Fcalculator)
+* [tr-en-dictionary](samples%2Ftr-en-dictionary)
