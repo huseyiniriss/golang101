@@ -5,18 +5,25 @@
 ```
 
 ├── basics
-│   ├── 1-packages-variables-functions
-│   │   ├── main.go
-│   ├── 2-flow-control-statements-for-if-else-switch-and-defer
-│   │   ├── main.go
-│   ├── 3-more-types-structs-slices-and-maps
-│   │   ├── main.go
+│   ├── tour
+│   │   ├── basics
+│   │   │   ├── 1-packages-variables-functions
+│   │   │   ├── main.go
+│   │   │   ├── 2-flow-control-statements-for-if-else-switch-and-defer
+│   │   │   ├── main.go
+│   │   │   ├── 3-more-types-structs-slices-and-maps
+│   │   │   ├── main.go
+│   │   ├── methods-and-interfaces
+│   │   │   ├── 1-methods-and-interfaces
+│   │   │   │   ├── methods.go
 ├── samples
 │   ├── calculator
 │   │   ├── main.go
 │   ├── todo-app
 │   │   ├── main.go
 │   ├── tr-en-dictionary
+│   │   ├── main.go
+│   ├── crypto-news
 │   │   ├── main.go
 ├── go.mod
 ├── .gitignore
@@ -90,3 +97,4 @@ This folder contains the following programs:
 * [todo-app](samples%2Ftodo-app)
 * [calculator](samples%2Fcalculator)
 * [tr-en-dictionary](samples%2Ftr-en-dictionary)
+* [crypto-news](samples%2Fcrypto-news)
