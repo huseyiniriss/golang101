@@ -12,8 +12,8 @@ type Abser interface {
 func main() {
 	// interfaces
 	var a Abser
-	f := MyFloat(-math.Sqrt2)
-	v := Vertex{3, 4}
+	f := MyFloat2(-math.Sqrt2)
+	v := Vertex2{3, 4}
 
 	a = f // a MyFloat implements Abser
 	fmt.Println(a.Abs())
@@ -96,19 +96,19 @@ func (f F) M() {
 	fmt.Println(f)
 }
 
-type MyFloat float64
+type MyFloat2 float64
 
-func (f MyFloat) Abs() float64 {
+func (f MyFloat2) Abs() float64 {
 	if f < 0 {
 		return float64(-f)
 	}
 	return float64(f)
 }
 
-type Vertex struct {
+type Vertex2 struct {
 	X, Y float64
 }
 
-func (v *Vertex) Abs() float64 {
+func (v *Vertex2) Abs() float64 {
 	return math.Sqrt(v.X*v.X + v.Y*v.Y)
 }
