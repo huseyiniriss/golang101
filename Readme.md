@@ -15,7 +15,12 @@
 │   │   │   ├── main.go
 │   │   ├── methods-and-interfaces
 │   │   │   ├── 1-methods-and-interfaces
-│   │   │   │   ├── methods.go
+│   │   │   │   ├── 1-methods.go
+│   │   │   │   ├── 2-interfaces.go
+│   │   │   │   ├── 3-type-interfaces.go
+│   │   │   │   ├── 4-errors.go
+│   │   │   │   ├── 5-readers.go
+│   │   │   │   ├── 6-images.go
 ├── samples
 │   ├── calculator
 │   │   ├── main.go
